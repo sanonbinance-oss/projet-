@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="PayKal — messagerie sécurisée et rechargement de compte par transfert mobile money. Déposez votre reçu, suivez la validation, discutez avec l'administration." />
+    <meta name="theme-color" content="#0B7A75" />
+    <meta name="color-scheme" content="light" />
+
+    <title>PayKal — Messagerie &amp; Rechargement</title>
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <link rel="mask-icon" href="/favicon.svg" color="#0B7A75" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="PayKal" />
+    <meta name="application-name" content="PayKal" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- Réseaux sociaux -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PayKal — Messagerie &amp; Rechargement" />
+    <meta property="og:description" content="Rechargez votre compte PayKal par transfert mobile money et échangez avec l'administration." />
+    <meta property="og:image" content="/icons/icon-512.png" />
+
+    <!-- Anti-cache pour la coquille applicative (voir aussi public/_headers) -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="font-family: system-ui, sans-serif; padding: 24px; text-align: center">
+        <h1>PayKal</h1>
+        <p>Cette application nécessite JavaScript pour fonctionner. Merci de l'activer dans votre navigateur.</p>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
