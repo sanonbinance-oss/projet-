@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="PayKal">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12A69F"/>
+      <stop offset="1" stop-color="#065F5B"/>
+    </linearGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD75E"/>
+      <stop offset="1" stop-color="#E9A200"/>
+    </linearGradient>
+  </defs>
+  <!-- Version "maskable" : fond plein bord à bord, logo dans la zone sûre (80%) -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g transform="translate(256 256) scale(0.74) translate(-256 -256)">
+    <path d="M256 78c-88 0-160 62-160 138 0 43 23 82 60 107v56c0 9 11 14 18 9l54-38c9 1 18 2 28 2 88 0 160-62 160-136S344 78 256 78z" fill="#FFFFFF"/>
+    <circle cx="256" cy="216" r="62" fill="url(#coin)"/>
+    <circle cx="256" cy="216" r="62" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="6"/>
+    <g fill="#FFFFFF">
+      <rect x="248" y="176" width="16" height="80" rx="8"/>
+      <rect x="226" y="192" width="60" height="16" rx="8"/>
+      <rect x="230" y="224" width="52" height="16" rx="8"/>
+    </g>
+    <rect x="150" y="300" width="120" height="16" rx="8" fill="#0B7A75" fill-opacity="0.25"/>
+    <rect x="150" y="336" width="180" height="16" rx="8" fill="#0B7A75" fill-opacity="0.18"/>
+  </g>
+</svg>

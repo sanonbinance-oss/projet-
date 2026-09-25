@@ -1,0 +1,72 @@
+{
+  "id": "/",
+  "name": "PayKal — Messagerie & Rechargement",
+  "short_name": "PayKal",
+  "description": "Rechargez votre compte PayKal par transfert mobile money, déposez votre reçu, suivez la validation et échangez avec l'administration.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#0B1B2B",
+  "theme_color": "#0B7A75",
+  "categories": ["finance", "business", "productivity"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Recharger mon compte",
+      "short_name": "Recharger",
+      "description": "Déposer une demande de rechargement avec le reçu",
+      "url": "/recharger",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Mes transactions",
+      "short_name": "Transactions",
+      "description": "Suivre l'état de mes demandes",
+      "url": "/transactions",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Messagerie",
+      "short_name": "Messages",
+      "description": "Discuter avec l'administration",
+      "url": "/messages",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}

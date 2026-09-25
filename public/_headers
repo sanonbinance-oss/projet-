@@ -1,0 +1,28 @@
+# ---------------------------------------------------------------------------
+# PayKal — en-têtes Netlify (copié à la racine de dist/ par Vite)
+# Objectif : la coquille applicative et le Service Worker ne doivent JAMAIS
+# être mis en cache agressivement, sinon les mises à jour PWA ne s'appliquent
+# pas chez les utilisateurs déjà installés.
+# ---------------------------------------------------------------------------
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=()
+
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
+  Service-Worker-Allowed: /
+
+/manifest.webmanifest
+  Content-Type: application/manifest+json
+  Cache-Control: public, max-age=3600
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/icons/*
+  Cache-Control: public, max-age=604800
