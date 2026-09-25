@@ -11,6 +11,8 @@ out/
 
 # Archives livrables (régénérées par `npm run package:netlify`)
 *.zip
+# ...sauf le livrable Netlify, volontairement versionné pour téléchargement direct
+!paykal-netlify-dist.zip
 
 # Environnement (ne jamais committer de secrets)
 .env
