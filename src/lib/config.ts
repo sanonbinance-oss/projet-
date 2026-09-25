@@ -10,8 +10,8 @@
  * ========================================================================== */
 
 /** Valeurs de repli — projet Supabase PayKal. */
-export const FALLBACK_SUPABASE_URL = 'https://sxtlttaswhodbtcjjdyn.supabase.co'
-export const FALLBACK_SUPABASE_ANON_KEY = 'sb_publishable_52fS1oqVHBvScTshCyU2lQ_dWruxGkn'
+export const FALLBACK_SUPABASE_URL = 'https://irfwqulpvdhzvkxvarzt.supabase.co'
+export const FALLBACK_SUPABASE_ANON_KEY = 'sb_publishable_SZrTlqHBsGJ3UVbDHoPPtQ_H6piW49L'
 
 /** Valeurs considérées comme « non fournies » (build sans variable Netlify). */
 const PLACEHOLDERS = new Set([
